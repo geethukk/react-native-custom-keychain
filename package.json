@@ -5,16 +5,16 @@
   "license": "MIT",
   "main": "index.js",
   "author": {
-    "name": "Dinesh Maharjan",
-    "email": "httpdeveloper@gmail.com",
-    "url": "https://github.com/httpdeveloper"
-  },
-  "bugs": {
-    "url": "https://github.com/httpdeveloper/react-native-custom-module/issues"
-  },
-  "homepage": "https://github.com/httpdeveloper/react-native-custom-module",
+    "name": "Geethu k k",
+    "email": "geethukk009@gmail.com"
+  },  
+  "homepage": "https://github.com/geethukk/react-native-custom-keychain/tree/master",
   "repository": {
     "type": "git",
-    "url": "https://github.com/httpdeveloper/react-native-custom-module"
+    "url": "https://github.com/geethukk/react-native-custom-keychain/tree/master"
+  },
+  "devDependencies": {
+    "flow-bin": "0.78",
+    "react-native": "^0.57.4"
   }
 }
