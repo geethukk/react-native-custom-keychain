@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:1:1-4:12
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:1:1-4:12
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:1:1-4:12
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:1:1-4:12
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:1:1-4:12
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:1:1-4:12
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:1:1-4:12
+	package
+		ADDED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:2:5-35
+		INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+		INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+		ADDED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:1:1-4:12
+		INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+		ADDED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:1:1-4:12
+		INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.USE_FINGERPRINT
+ADDED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:3:3-73
+	android:name
+		ADDED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml:3:21-70
+uses-sdk
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+		ADDED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+		INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+		ADDED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
+		INJECTED from C:\Geethu\Project\test\react-native-keychain-master\react-native-keychain-master\KeychainExample\my-custom-module\src\main\AndroidManifest.xml
