@@ -173,9 +173,11 @@ export function setItem(
  * @return {Promise} Resolves to `{ service, key, value }` when successful
  */
 export function getItem(
+  key: string,
   serviceOrOptions?: string | Options
 ): Promise<false | SharedWebCredentials> {
   return RNKeychainManager.getItem(
+    key,
     getOptionsArgument(serviceOrOptions)
   );
 }
