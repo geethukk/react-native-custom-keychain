@@ -1,31 +1,31 @@
 {
-  "name": "react-native-custom-keychain",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "dependencies": {
-    "react": "16.5.0",
-    "react-native": "0.57.1",
-  },
-  "devDependencies": {
-    "@babel/runtime": "^7.1.2",
-    "babel-jest": "23.6.0",
-    "jest": "23.6.0",
-    "metro-react-native-babel-preset": "0.47.0",
-    "react-test-renderer": "16.5.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/geethukk/react-native-custom-keychain.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/geethukk/react-native-custom-keychain/issues"
-  },
-  "homepage": "https://github.com/geethukk/react-native-custom-keychain#readme"
+	"name": "react-native-custom-keychain",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"dependencies": {
+		"react": "16.5.0",
+		"react-native": "0.57.1"
+	},
+	"devDependencies": {
+		"@babel/runtime": "^7.1.2",
+		"babel-jest": "23.6.0",
+		"jest": "23.6.0",
+		"metro-react-native-babel-preset": "0.47.0",
+		"react-test-renderer": "16.5.0"
+	},
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/geethukk/react-native-custom-keychain.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/geethukk/react-native-custom-keychain/issues"
+	},
+	"homepage": "https://github.com/geethukk/react-native-custom-keychain#readme"
 }
