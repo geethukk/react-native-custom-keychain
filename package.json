@@ -42,6 +42,6 @@
   "license": "MIT",
   "devDependencies": {
     "flow-bin": "0.78",
-    "react-native": "^0.57.4"
+    "react-native": "0.59.5"
   }
 }
