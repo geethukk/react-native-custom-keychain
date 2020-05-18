@@ -204,4 +204,21 @@ export function removeItem(key: string,
   return RNKeychainManager.removeItem(key, getOptionsArgument(serviceOrOptions))
 }
 
+export default {
+  SECURITY_LEVEL,
+  ACCESSIBLE,
+  ACCESS_CONTROL,
+  AUTHENTICATION_TYPE,
+  BIOMETRY_TYPE,
+  STORAGE_TYPE,
+  SECURITY_RULES,
+  getSecurityLevel,
+  canImplyAuthentication,
+  getSupportedBiometryType,
+  setItem,
+  getItem,
+  removeItem,
+  resetAll,
+};
+
 
