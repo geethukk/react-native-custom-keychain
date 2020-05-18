@@ -93,8 +93,12 @@ declare module 'react-native-custom-keychain' {
     function getItem(
         options?: Options
     ): Promise<false | { service: string, key: string, value: string }>;
-
-    function resetGenericPassword(
+    function removeItem(
+        key: string,
+        options?: Options
+    ): Promise<false | { service: string, key: string, value: string }>;
+    
+    function resetAll(
         options?: Options
     ): Promise<boolean>
 

@@ -35,8 +35,9 @@ public class KeychainModule extends ReactContextBaseJavaModule {
     public static final String KEYCHAIN_MODULE = "RNKeychainManager";
     public static final String FINGERPRINT_SUPPORTED_NAME = "Fingerprint";
     public static final String EMPTY_STRING = "";
+  private static final String SECURE_STORAGE_MODULE ="KeychainModule";
 
-    private final Map<String, CipherStorage> cipherStorageMap = new HashMap<>();
+  private final Map<String, CipherStorage> cipherStorageMap = new HashMap<>();
     private final PrefsStorage prefsStorage;
 
     @Override
@@ -127,7 +128,18 @@ public class KeychainModule extends ReactContextBaseJavaModule {
             promise.reject(E_CRYPTO_FAILED, e);
         }
     }
+    @ReactMethod
+    public void removeItem(String key, String service, Promise promise) {
+        try {
+            service = getDefaultServiceIfNull(service);
+            prefsStorage.removeEntry(key);
 
+            promise.resolve(true);
+        } catch (Exception e) {
+            Log.e(SECURE_STORAGE_MODULE, e.getMessage());
+            promise.reject(E_KEYSTORE_ACCESS_ERROR, e);
+        }
+    }
     private DecryptionResult decryptCredentials(String key,String service, CipherStorage currentCipherStorage, ResultSet resultSet) throws CryptoFailedException, KeyStoreAccessException {
         if (resultSet.cipherStorageName.equals(currentCipherStorage.getCipherStorageName())) {
             // The encrypted data is encrypted using the current CipherStorage, so we just decrypt and return
@@ -160,7 +172,7 @@ public class KeychainModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void resetGenericPasswordForOptions(String service, Promise promise) {
+    public void resetAll(String service, Promise promise) {
         try {
             service = getDefaultServiceIfNull(service);
 

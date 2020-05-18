@@ -187,10 +187,21 @@ export function getItem(
  * @param {string|object} serviceOrOptions Reverse domain name qualifier for the service, defaults to `bundleId` or an options object.
  * @return {Promise} Resolves to `true` when successful
  */
-export function resetGenericPassword(
+export function resetAll(
   serviceOrOptions?: string | Options
 ): Promise<boolean> {
-  return RNKeychainManager.resetGenericPasswordForOptions(
+  return RNKeychainManager.resetAll(
     getOptionsArgument(serviceOrOptions)
   );
 }
+
+export function removeItem(key: string,
+  serviceOrOptions?: string | Options
+  ): Promise<false | SharedWebCredentials> {
+  if (isAndroid) {
+    return RNKeychainManager.removeItem(key, getOptionsArgument(serviceOrOptions))
+  }
+  return RNKeychainManager.removeItem(key, getOptionsArgument(serviceOrOptions))
+}
+
+

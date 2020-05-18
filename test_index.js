@@ -6,11 +6,12 @@ import {
   BIOMETRY_TYPE,
   canImplyAuthentication,
   getItem,
+  removeItem,
   getInternetCredentials,
   getSupportedBiometryType,
   hasInternetCredentials,
   requestSharedWebCredentials,
-  resetGenericPassword,
+  resetAll,
   resetInternetCredentials,
   setItem,
   setInternetCredentials,
@@ -89,11 +90,17 @@ getItem().then(result => {
 getItem('service');
 getItem(simpleOptions);
 
-resetGenericPassword().then(result => {
+removeItem.then(result => {
+  (result: boolean | SharedWebCredentials);
+});
+removeItem('service');
+removeItem(simpleOptions);
+
+resetAll().then(result => {
   (result: boolean);
 });
-resetGenericPassword('service');
-resetGenericPassword(simpleOptions);
+resetAll('service');
+resetAll(simpleOptions);
 
 requestSharedWebCredentials().then(result => {
   if (result) {

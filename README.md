@@ -38,7 +38,7 @@ async () => {
   } catch (error) {
     console.log('Keychain couldn\'t be accessed!', error);
   }
-  await Keychain.resetGenericPassword();
+  await Keychain.resetAll();
 }
 ```
 
@@ -54,7 +54,7 @@ Will store the key/value combination in the secure storage. Resolves to `true` o
 
 Will retrieve the key/value combination from the secure storage. Resolves to `{ key, value }` if an entry exists or `false` if it doesn't. It will reject only if an unexpected error is encountered like lacking entitlements or permission.
 
-### `resetGenericPassword([{ service }])`
+### `resetAll([{ service }])`
 
 Will remove the key/value combination from the secure storage.
 
@@ -269,7 +269,7 @@ const keychainMock = {
   SECURITY_LEVEL_SECURE_HARDWARE: "MOCK_SECURITY_LEVEL_SECURE_HARDWARE",
   setItem: jest.fn().mockResolvedValue(),
   getItem: jest.fn().mockResolvedValue(),
-  resetGenericPassword: jest.fn().mockResolvedValue(),
+  resetAll: jest.fn().mockResolvedValue(),
   ...
 }
 ```

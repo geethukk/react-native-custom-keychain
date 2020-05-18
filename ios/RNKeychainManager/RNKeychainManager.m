@@ -345,7 +345,7 @@ RCT_EXPORT_METHOD(getItem:(NSDictionary *)options resolver:(RCTPromiseResolveBlo
 
 }
 
-RCT_EXPORT_METHOD(resetGenericPasswordForOptions:(NSDictionary *)options resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
+RCT_EXPORT_METHOD(resetAll:(NSDictionary *)options resolver:(RCTPromiseResolveBlock)resolve rejecter:(RCTPromiseRejectBlock)reject)
 {
   NSString *service = serviceValue(options);
 
