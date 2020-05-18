@@ -100,7 +100,7 @@ declare module 'react-native-custom-keychain' {
     
     function resetAll(
         options?: Options
-    ): Promise<boolean>
+    ): Promise<boolean>;
 
     function requestSharedWebCredentials(
     ): Promise<SharedWebCredentials>;
