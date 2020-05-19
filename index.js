@@ -39,6 +39,7 @@ export const BIOMETRY_TYPE = Object.freeze({
   FACE_ID: 'FaceID',
   FINGERPRINT: 'Fingerprint',
 });
+const isAndroid = Platform.OS === 'android'
 
 export type SecAccessible = $Values<typeof ACCESSIBLE>;
 
