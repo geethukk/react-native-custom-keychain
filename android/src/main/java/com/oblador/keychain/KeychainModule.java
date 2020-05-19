@@ -131,8 +131,11 @@ public class KeychainModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void removeItem(String key, String service, Promise promise) {
         try {
+		    Log.e(KEYCHAIN_MODULE,"removeItem"+key);
+
             service = getDefaultServiceIfNull(service);
             prefsStorage.removeEntry(key);
+		    Log.e(KEYCHAIN_MODULE,"removeEntry");
 
             promise.resolve(true);
         } catch (Exception e) {
@@ -174,6 +177,8 @@ public class KeychainModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void resetAll(String service, Promise promise) {
         try {
+		    Log.e(KEYCHAIN_MODULE, "resetAll");
+
             service = getDefaultServiceIfNull(service);
 
             // First we clean up the cipher storage (using the cipher storage that was used to store the entry)

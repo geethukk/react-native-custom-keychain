@@ -210,8 +210,6 @@ export default {
   ACCESS_CONTROL,
   AUTHENTICATION_TYPE,
   BIOMETRY_TYPE,
-  STORAGE_TYPE,
-  SECURITY_RULES,
   getSecurityLevel,
   canImplyAuthentication,
   getSupportedBiometryType,
